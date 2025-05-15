@@ -9,7 +9,7 @@
 #### All other Tool type like @Tool, StructuredTool are built on top of Base Tool.
 ## ToolKits:
 #### A Toolkit is just a collection of related tools that serve a common purpose-packaged together for convenience and reusability.
-#### A Toolkit might be : GoogleDriveToolKit.
+#### A Toolkit might be : **GoogleDriveToolKit**.
 ## Tool Calling:
 #### Tool Calling is the process where the LLM decides during a conversation or task, that it needs to use a specific tool or function and generates a structured output with - The name of the tool and the argument to call it with.
 ### The LLM does not actually run the tool, it just suggests the tool and the input arguments. The actual execution is handled by LangChain or you.
