@@ -1,7 +1,7 @@
 # Tools in LangChain:
 #### A Tool is just a Python Function(or API) that is packaged in a way that the LLM can understand and call when needed. There are 2 type of tools in LangChain.
 #### (1) Bulit-in Tools (2) Custom Tools
-### A Tool is Runnable too.
+### **A Tool is Runnable too.**
 ### There 3 ways to create custom Tools.
 #### (1) Using @Tool decorator (2) Using Structured tool & Pydantic (3) Using Base Tool Class
 #### A Structured tool in LangChain is a special type of tool where the input to the tool follows a structured schema, typically defined using a Pydantic model.
